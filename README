@@ -1,0 +1,16 @@
+By: Ban Luc
+
+* This program was written and tested using .net core 2.0, and has been tested on both Mac and Windows
+
+* There are 3 separate projects in the solution:
+ 1) PositionCalculator - this is a classlib project, containing the core logic of the PositionCalculator program
+ 2) PositionCalculator.Tests - xunit test project for unit testing the PositionCalulator 
+ 3) PositionCalculator.ClientApp - a console application acting as the client app that accepts the fully qualified path to a valid csv input file containing the positions.  The input file is expected to have a header line.  The program will then output the net positions and boxed positions to the console in the expected format.
+
+* Instructions:
+ * To run xunit test:
+  * From the root directory, execute the below command:
+  * dotnet test
+ * To run the console application:
+  * From the root directory, execute the below command:
+  * dotnet run --project PositionCalculator.ClientApp <full_path_to_input_file>

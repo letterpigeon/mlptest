@@ -2,4 +2,6 @@ PositionCalculator/obj
 PositionCalculator/bin
 PositionCalculator.Tests/obj
 PositionCalculator.Tests/bin
+PositionCalculator.ClientApp/obj
+PositionCalculator.ClientApp/bin
 mlptest.userprefs
