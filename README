@@ -9,7 +9,8 @@ By: Ban Luc
 
 * Instructions:
  * To run xunit test:
-  * From the root directory, execute the below command:
+  * From the root directory, execute the below commands:
+  * cd PositionCalculator.Tests
   * dotnet test
  * To run the console application:
   * From the root directory, execute the below command:
